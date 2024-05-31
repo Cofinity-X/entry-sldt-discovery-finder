@@ -2,10 +2,6 @@ name: Build and publish container image to ACR
 
 on:
   push:
-    branches:
-      - 'main'
-    paths:
-      - 'backend/**'
     tags:
       - 'v*.*.*'
       - 'v*.*.*-*'
