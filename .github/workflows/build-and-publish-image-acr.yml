@@ -10,7 +10,7 @@ on:
 jobs:
   push-image-to-acr:
     runs-on: ubuntu-latest
-    environment: acr-shared-env
+    environment: entry-acr
     permissions:
       contents: read
       actions: read
